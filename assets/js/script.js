@@ -12,7 +12,7 @@ document.getElementById("code_gitmbed_auto").addEventListener('submit', function
     var width = document.getElementById('link_width').value;
     var height = document.getElementById('link_height').value;
 
-    document.getElementById('output').value = `<a href=""><img width="100%" src="https://flancast90.github.io/gitmBed/button_gitmbed.png#gitmbed=`+url+`,`+width+`,`+height+`"/></a>               
+    document.getElementById('output').value = `<a href="#gitmbed=`+url+`,`+width+`,`+height+`"><img width="100%" src="https://flancast90.github.io/gitmBed/button_gitmbed.png"/></a>               
     `;
 
     e.preventDefault();
