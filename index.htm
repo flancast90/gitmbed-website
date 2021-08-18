@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>gitmbed</title>
+      <meta name="description" content="A chrome extension for safe embeds of content in a GitHub readme.">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link id="theme-stylesheet" rel="stylesheet" href="assets/stylesheet.css">
+      <meta name="theme-color" content="#ffffff">
+      <meta property="og:title" content="gitmbed">
+   </head>
+   <body style="background-color:#f6f6f6;">
+      <main class="timeline">
+         <article class="timeline-comment">
+            <div class="comment">
+               <header class="comment-header"> <span class="comment-meta"></span></header>
+               <article class="markdown-body">
+                  <h1 id="utterances-">Gitmbed 🖱️ <img style="position:absolute; height:30px; right:0px;" src="https://github.com/flancast90/gitmbed/get_on_cws.png"/></h1>
+                  <p>A Chrome Extension for making and rendering embedded content in websites, with an emphasis on safety and a more inter-connected web!</p>
+                  <ul>
+                     <li><a href="https://github.com/flancast90/gitmbed">Open source</a>. 🙌</li>
+                     <li>No tracking, no ads, always free. 📡🚫</li>
+                     <li>Powered by pure HTML allowed by <a href="https://github.com">GitHub</a> 💅</li>
+                  </ul><br>
+                  <h2 id="how-it-works">❓ How it Works</h2>
+                  <p>As a Chrome Extension, Gitmbed checks every page for a gitmbed element. If one is found, it renders the the embed using options specified in the source of the gitmbed element. Gitmbed is served through a static image file, with the additional arguments appended to the src.</p>
+                  <p></p><br>
+                  <h2 id="configuration">Make a New Gitmbed ❗</h2>
+                  
+                     <h3 style="color:gray" id="auto">Auto-Gitmbed</h3>
+                     <form id="code_gitmbed_auto">
+                        <input required style="width:99%" id="link" class="form-control" placeholder="The link to render"/>
+                        <p class="note">Some services do not allow theselves to be embedded, which can lead to failure of the extension.</p>
+                        <input required style="width:99%" id="link_width" class="form-control" placeholder="The width of the embed"/>
+                        <p class="note">The width of the embed. Can be in %, px, em, or rem.</p>
+                        <input required style="width:99%" id="link_height" class="form-control" placeholder="the height of the embed"/>
+                        <p class="note">The height of the embed. Can be in %, px, em, or rem.</p>
+                        <br>
+                        <button type="submit" id="generate_code" class="btn btn-blue code-action">Make Code!</button>
+                    </form>
+                    <br>
+                    <br>
+                     <textarea style="width:99%; height:20vh;" class="form-control" placeholder="your code will appear here. Paste it into a site that accepts HTML, and see it work!" id="output"></textarea>
+                     <br>
+                     <h3 style="color:gray">Manual-Gitmbed</h3>
+                     <ol>
+                        <li>The bare-minimum for gitmbed content is that it contains the page contains an image with the HTML <code>src</code> attribute. Inside this <code>src</code>, you must append the arguments <code>embed src, embed width, embed height</code></li>
+                     </ol>
+                     For example, a simple interpretation of this (acceptable in GitHub markdown) would look like this:<br>
+                     <xmp style="width:95%; overflow-x: scroll;"><a href="https://github.com/flancast90/gitmbed"><img width="100%" src="https://flancast90.github.io/gitmBed/button_gitmbed.png#gitmbed=https://tiddlywiki.com,100%,500"/></a>
+                     </xmp>
+                  
+                  <br><br><br>
+                  <h1 id="try-it-out-">Try it Out 👇👇👇</h1>
+                  <br>
+                  <a href="https://github.com/flancast90/gitmbed"><img width="100%" src="https://flancast90.github.io/gitmBed/button_gitmbed.png#gitmbed=https://tiddlywiki.com,100%,500"/></a>
+               </article>
+            </div>
+         </article>
+      </main>
+    <script src="assets/js/script.js"></script>
+   </body>
+</html>
