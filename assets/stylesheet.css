@@ -1,0 +1,51 @@
+body {
+    font-family: Tahoma, sans-serif;
+    }
+            @media only screen and (max-width: 1250px) {
+                .d-flex {
+                    display:flex !important;
+                    
+                }
+                .SideNav {
+                    display: none;
+                }
+                .Box {
+                    width: 90% !important;
+                }
+                .Header-input {
+                    display:none !important;
+                }
+            }
+            @media only screen and (min-width: 1250px) {
+                .flex-justify-end{
+                    display:none !important;
+                }
+            }
+            .Header-input {
+                    display:block;
+            }
+            details > summary:first-of-type {
+                list-style-type: none;
+            }
+            h1 {
+                border-bottom: solid #eaecef 1px;
+                font-size: 2.5em;
+            }
+            a {
+                font-size: 1.25em;
+                cursor:pointer;
+            }
+            .SideNav-subItem {
+                font-size: 1.15em;
+            }
+            p {
+                font-size: 1.25em;
+            }
+            span {
+                font-size: 1.25em;
+            }
+            .search-result {
+                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+                padding:1.3em;
+                border-radius: 1em;
+            }
