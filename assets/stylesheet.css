@@ -1,7 +1,7 @@
 body {
     font-family: Tahoma, sans-serif;
     }
-            @media only screen and (max-width: 750px) {
+            @media only screen and (max-width: 750) {
                 .d-flex {
                     display:flex !important;
                     
@@ -34,7 +34,7 @@ body {
                     font-size: 2.75em;
                 }
             }
-            @media only screen and (min-width: 750px) {
+            @media only screen and (min-width: 750) {
                 .flex-justify-end{
                     display:none !important;
                 }
