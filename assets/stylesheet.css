@@ -16,13 +16,13 @@ body {
                     display:none !important;
                 }
                 p, a, li, b, mark {
-                    font-size: 3em !important;   
+                    font-size: 3em !important !important;   
                 }
                 h1 {
-                    font-size: 3.5em !important;   
+                    font-size: 3.5em !important !important;   
                 }
                 h3 {
-                    font-size:3.25em !important;   
+                    font-size:3.25em !important !important;   
                 }
             }
             @media only screen and (min-width: 750px) {
