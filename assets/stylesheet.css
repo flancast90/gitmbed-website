@@ -15,19 +15,45 @@ body {
                 .Header-input {
                     display:none !important;
                 }
-                p, a, li, b, mark {
+                p, li, b, mark, span {
                     font-size: 3em !important !important;   
                 }
+                a {
+                    font-size: 3em;
+                    cursor:pointer;   
+                }
                 h1 {
+                    border-bottom: solid #eaecef 1px;
+                    font-size: 2.5em;
                     font-size: 3.5em !important !important;   
                 }
                 h3 {
                     font-size:3.25em !important !important;   
                 }
+                .SideNav-subItem {
+                    font-size: 2.75em;
+                }
             }
             @media only screen and (min-width: 750px) {
                 .flex-justify-end{
                     display:none !important;
+                }
+                h1 {
+                    border-bottom: solid #eaecef 1px;
+                    font-size: 2.5em;
+                }
+                a {
+                    font-size: 1.25em;
+                    cursor:pointer;
+                }
+                p {
+                    font-size: 1.25em;
+                }
+                span {
+                    font-size: 1.25em;
+                }
+                .SideNav-subItem {
+                    font-size: 1.15em;
                 }
             }
             .Header-input {
@@ -35,23 +61,6 @@ body {
             }
             details > summary:first-of-type {
                 list-style-type: none;
-            }
-            h1 {
-                border-bottom: solid #eaecef 1px;
-                font-size: 2.5em;
-            }
-            a {
-                font-size: 1.25em;
-                cursor:pointer;
-            }
-            .SideNav-subItem {
-                font-size: 1.15em;
-            }
-            p {
-                font-size: 1.25em;
-            }
-            span {
-                font-size: 1.25em;
             }
             .search-result {
                 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
