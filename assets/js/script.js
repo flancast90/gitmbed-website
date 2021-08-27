@@ -66,7 +66,7 @@
                     if (document.getElementById('GitHub').checked) {
                         document.getElementById('output').style.display = 'block';
                         document.getElementById('insta-instructions').style.display = 'none';
-                        document.getElementById('output').value = `<a href="https://chrome.google.com/webstore/detail/gitmbed/cbfjhpckapddemlmidlmgoepochhfpfi"><img width="100%" src="https://flancast90.github.io/gitmBed/button_gitmbed.png" alt="gitmbed=`+url+`,`+width+`,`+height+`"/></a>`;
+                        document.getElementById('output').value = `<a href="https://chrome.google.com/webstore/detail/gitmbed/cbfjhpckapddemlmidlmgoepochhfpfi"><img width="100%" src="https://gitmbed.finnsoftware.net/assets/img/button_gitmbed.png" alt="gitmbed=`+url+`,`+width+`,`+height+`"/></a>`;
                         
                         // scroll to page bottom, since the user could miss the changes
                         // that are added with certain screen sizes without this.
